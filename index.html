@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radostina Kosteva - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Radostina Kotseva</a>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Portfolio de Arquitectura</p>
+            <h1 class="hero-title">Radostina Kotseva</h1>
+            <p class="hero-description">
+                Estudiante de arquitectura explorando la intersección entre diseño, innovación y sostenibilidad. 
+                Transformando conceptos en espacios habitables que cuentan historias.
+            </p>
+            <a href="#proyectos" class="hero-cta">
+                Ver Proyectos
+                <span>→</span>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi">
+        <div class="section-header">
+            <p class="section-label">Conoce más</p>
+            <h2 class="section-title">Sobre mí</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <!-- 🔄 PERSONALIZAR: Agrega la foto de tu mujer -->
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600" alt="Foto de perfil">
+            </div>
+            <div class="about-text">
+                <h3>Diseñando espacios con propósito</h3>
+                <p>
+                    Con 6 años de formación académica en arquitectura, he desarrollado una pasión profunda por crear espacios 
+                    que no solo sean estéticamente impactantes, sino que también respondan a las necesidades humanas y medioambientales.
+                </p>
+                <p>
+                    Mi enfoque se centra en el diseño conceptual, la exploración de materiales sostenibles y la integración 
+                    de tecnología digital en el proceso creativo. Cada proyecto es una oportunidad para experimentar, 
+                    aprender y contribuir al futuro de la arquitectura.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Años de Estudio</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Proyectos Realizados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+        <div class="section-header">
+            <p class="section-label">Mi Trabajo</p>
+            <h2 class="section-title">Proyectos</h2>
+            <p class="section-description">
+                Una selección de proyectos académicos y conceptuales que reflejan mi visión arquitectónica 
+                y capacidad técnica. AASDASDADSDSAD
+            </p>
+        </div>
+        <div class="projects-grid">
+            <!-- Proyecto 1 -->
+            <div class="project-card" data-project="1">
+                <div class="project-image">
+                    <!-- 🔄 PERSONALIZAR: Reemplaza con imágenes de proyectos reales -->
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600" alt="Proyecto 1">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Residencial</p>
+                    <h3 class="project-title">Casa Minimalista Urbana</h3>
+                    <p class="project-description">
+                        Diseño residencial contemporáneo que integra espacios abiertos con zonas privadas, 
+                        maximizando la luz natural y la conexión con el exterior.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="project-card" data-project="2">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=600" alt="Proyecto 2">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Cultural</p>
+                    <h3 class="project-title">Centro Cultural Comunitario</h3>
+                    <p class="project-description">
+                        Espacio multifuncional que promueve la interacción social y cultural, 
+                        diseñado con criterios de sostenibilidad y accesibilidad universal.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="project-card" data-project="3">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600" alt="Proyecto 3">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Comercial</p>
+                    <h3 class="project-title">Espacio de Co-working</h3>
+                    <p class="project-description">
+                        Diseño de oficinas flexibles que fomentan la creatividad y colaboración, 
+                        con zonas de trabajo individual y espacios compartidos dinámicos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Proyecto 4 -->
+            <div class="project-card" data-project="4">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=600" alt="Proyecto 4">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Urbano</p>
+                    <h3 class="project-title">Parque Urbano Lineal</h3>
+                    <p class="project-description">
+                        Propuesta de revitalización urbana que transforma espacios degradados 
+                        en zonas verdes accesibles para la comunidad.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Proyecto 5 -->
+            <div class="project-card" data-project="5">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600" alt="Proyecto 5">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Experimental</p>
+                    <h3 class="project-title">Pabellón Paramétrico</h3>
+                    <p class="project-description">
+                        Exploración de diseño paramétrico y fabricación digital, 
+                        creando estructuras orgánicas que desafían la geometría tradicional.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Proyecto 6 -->
+            <div class="project-card" data-project="6">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=600" alt="Proyecto 6">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Interiorismo</p>
+                    <h3 class="project-title">Loft Industrial</h3>
+                    <p class="project-description">
+                        Renovación de espacio industrial convertido en vivienda moderna, 
+                        respetando elementos originales y agregando intervenciones contemporáneas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+        <div class="section-header">
+            <p class="section-label">Capacidades</p>
+            <h2 class="section-title">Habilidades</h2>
+            <p class="section-description">
+                Dominio técnico y creativo en herramientas digitales y habilidades de diseño arquitectónico.
+            </p>
+        </div>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Software & Herramientas</h3>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-icon">AC</div>
+                        <div class="skill-info">
+                            <div class="skill-name">AutoCAD</div>
+                            <div class="skill-level">Dibujo técnico 2D y documentación</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">RV</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Revit</div>
+                            <div class="skill-level">BIM y modelado arquitectónico</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">SU</div>
+                        <div class="skill-info">
+                            <div class="skill-name">SketchUp</div>
+                            <div class="skill-level">Modelado 3D y visualización rápida</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">RH</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Rhinoceros + Grasshopper</div>
+                            <div class="skill-level">Diseño paramétrico y formas complejas</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">LU</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Lumion</div>
+                            <div class="skill-level">Renderizado y animaciones arquitectónicas</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">PS</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Photoshop</div>
+                            <div class="skill-level">Post-producción y presentaciones</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">AI</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Illustrator</div>
+                            <div class="skill-level">Gráficos vectoriales y diagramas</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Competencias Clave</h3>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-icon">💡</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Pensamiento Conceptual</div>
+                            <div class="skill-level">Desarrollo de ideas innovadoras y narrativas espaciales</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🎨</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Creatividad</div>
+                            <div class="skill-level">Exploración de soluciones no convencionales</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🔧</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Resolución de Problemas</div>
+                            <div class="skill-level">Análisis crítico y adaptación a restricciones</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">📐</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Atención al Detalle</div>
+                            <div class="skill-level">Precisión técnica y acabados de calidad</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">👥</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Trabajo Colaborativo</div>
+                            <div class="skill-level">Integración con equipos multidisciplinarios</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🌱</div>
+                        <div class="skill-info">
+                            <div class="skill-name">Diseño Sostenible</div>
+                            <div class="skill-level">Consideración de impacto ambiental y eficiencia</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <div class="section-header">
+            <p class="section-label">Conectemos</p>
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-description">
+                ¿Tienes un proyecto en mente o quieres colaborar? Me encantaría escucharte.
+            </p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <!-- 🔄 PERSONALIZAR: Reemplaza con el email real -->
+                        <a href="mailto:maria.garcia@email.com">maria.garcia@email.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-details">
+                        <h4>Ubicación</h4>
+                        <!-- 🔄 PERSONALIZAR: Reemplaza con la ubicación real -->
+                        <p>Barcelona, España</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <div class="contact-details">
+                        <h4>Redes Profesionales</h4>
+                        <div class="social-links">
+                            <!-- 🔄 PERSONALIZAR: Agrega los enlaces reales de redes sociales -->
+                            <a href="#" class="social-link" title="LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" title="Instagram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="form-submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Radostina Kotseva. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- MODAL PROYECTO -->
+    <div class="modal" id="projectModal">
+        <button class="modal-close" id="modalClose">✕</button>
+        <div class="modal-content">
+            <div class="modal-image">
+                <img id="modalImage" src="" alt="">
+            </div>
+            <div class="modal-info">
+                <p class="modal-category" id="modalCategory"></p>
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <p class="modal-description" id="modalDescription"></p>
+                <div class="modal-details">
+                    <div class="modal-detail">
+                        <div class="modal-detail-label">Año</div>
+                        <div class="modal-detail-value" id="modalYear"></div>
+                    </div>
+                    <div class="modal-detail">
+                        <div class="modal-detail-label">Tipo</div>
+                        <div class="modal-detail-value" id="modalType"></div>
+                    </div>
+                    <div class="modal-detail">
+                        <div class="modal-detail-label">Software</div>
+                        <div class="modal-detail-value" id="modalSoftware"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
